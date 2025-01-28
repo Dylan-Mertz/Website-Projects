@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Printer Based How to Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+  <style>
+      button {
+        background-color: #E00122;
+        color: #ffffff;
+      }
+      .mainsection {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .flex-item {
+        width: 30%;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .flex-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .flex-item h2 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+
+        .flex-item p {
+            font-size: 1rem;
+            margin-top: 10px;
+           
+        }
+        .flex-video {
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 1000px;
+        }
+      @media screen and (max-width: 780px) {
+      .mainsection {
+        display: block;
+        margin: 0px;
+      }
+      .flex-item  {
+        width: 100%;
+        
+      }
+      .flex-video {
+        width: 100%;
+        Height: 50px;
+      }
+    }
+    </style>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }               
+        </script>
+    </head>
+
+    <body>
+        <div class="topnav">
+          <div class="Logo">
+            <a href="index.html" class="active"><img src="Images/Logo.png" alt="Logo"></a>
+          </div>
+            <div id="myLinks">
+              <a href="HP.html">How to HP</a>
+              <a href="KonicaMinolta.html">How to Konica Minolta</a>
+              <a href="Kyocera.html">How to Kyocera</a>
+              <a href="Lexmark.html">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html">Submit a Request</a>
+            </div>
+       
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+         </div>
+
+         <div class="mainsection">
+                  <div class="flex-item">
+
+                    <h2>About Us</h2>
+                      <h5>What are we trying to do?</h5>
+                       <img src="Images/showRoom.jpeg" alt="ShowRoom">
+                        <p>Our Goal: </p>
+                        <p>Our goal is to provide customer satisfaction without requiring users to call our help desk. In order to achieve this, we hope this website allows for users to resolve their issues and provide a basic methology of troubleshooting.</p>
+                    </div>
+                        <div class="flex-item">
+                    <h2>Contact Us</h2>
+                      <h5>Our Contact Information</h5>
+                        <img src="Images/PrinterRoom.jpeg" alt="Printer Room">
+                        <p><a href="mailto:mertzdn@mail.uc.edu">Our email</a></p>
+                        <p>Our phone number: 513-111-1010</p>
+                    </div>
+                  
+                <div class="flex-item">
+                    <h2>Our Service</h2>
+                      <h5>Guarunteed satisfaction</h5>
+                      <img src="Images/serviceDesk.jpeg" alt="Service Desk" >
+                      <p>Our service desk strives to provide quality service. In order to accomplish our goal, we strive for a wait time of <b>20 seconds or less</b></p>
+                </div>
+                <div class="flex-item">
+                    <h2>Other Resources</h2>
+                    <table>
+                      <tr>
+                        <th>Business Service Dealer</th>
+                        <th>Link to Main Site</th>
+                      </tr>
+                      <tr>
+                        <td>HP</td>
+                        <td><a href="https://support.hp.com/us-en">HP Support</a></td>
+                      </tr>
+                      <tr>
+                        <td>Konica Minolta</td>
+                        <td><a href="https://manuals.konicaminolta.eu/konicaminolta/">Konica Minolta Online User Guides</a></td>
+                      </tr>
+                      <tr>
+                        <td>Kyocera</td>
+                        <td><a href="https://global.kyocera.com/">Kyocera Document Solutions</a></td>
+                      </tr>
+                      <tr>
+                        <td>Lexmark</td>
+                        <td><a href="https://infoserve.lexmark.com/ids/idv/index.aspx?loc=en_US">How to Videos</a></td>
+                      </tr>
+                      <tr>
+                        <td>Ricoh</td>
+                        <td><a href="https://howto.ricoh-usa.com/ricoh/index.asp">Ricoh How To</a></td>
+                      </tr>
+                    </table>
+                  </div>
+          </div>
+          <div class="mainsection">
+            <div class="flex-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tDiHTK9nwYw?si=Ma0dLrA2cW1yXeLP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+    </body>
+
+        
+        
+</html>

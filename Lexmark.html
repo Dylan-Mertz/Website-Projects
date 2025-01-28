@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>How to work an Lexmark</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }               
+        </script>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="Logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="myLinks">
+              <a href="HP.html">How to HP</a>
+              <a href="KonicaMinolta.html">How to Konica Minolta</a>
+              <a href="Kyocera.html">How to Kyocera</a>
+              <a href="Lexmark.html" class="active">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html">Submit a Request</a>
+            </div>
+       
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+         </div>
+         <div class="container">
+            <div class="buttonMenu">
+               <button id="tonerButton">How to Change Toner</button>
+               <button id="wasteTonerButton">How to Empty/Change Waste Toner Box</button>
+               <button id="RemoveLinesButton">How to Remove Lines On Copies</button>
+               <button id="ChangePaperButton">How to Change Paper</button>
+               <button id="SetTypeButton">How to Set Paper Type</button>
+            </div>
+         <main>
+            <h2>Diagnosing the Problem</h2>
+                    <p>Your printer has now done the thing the everyone dreads the most and has stopped printing. Unfortunately, service is not answering and you need assistance immediately. You stumbled across this website and are hoping the issue is an easy fix. As long as you following the troubleshooting steps, that question will be answered fairly quickly.</p>
+                    <dl class="steps">
+                        <dt>1. Restart and Unplug the Machine</dt>
+                        <dd>
+                            The first step in every troubleshooting process should be to power down the machine completely and unplug the machine. Fortunately, Lexmark machines are fully rebooted by pressing and holding the power button on the front of the machine. Once powered off, unplug the machine and leave it off for 30 seconds before powering it back on. If issues persist, please check the troubleshooting steps below.
+                        </dd>
+                        <dt>2. Diagnosing the Problem</dt>
+                        <dd>
+                            Now that you attempted to give the machine a full reboot, let's make sure the issue is something you can fix. Start by grabbing the IP address of the machine and typing the number into your web browser. If the webpage does not load, please contact your IT department as there may be an issue with the machine's network connectivity. Otherwise, the printer's web interface should show up and show you what errors may be present. Match the error with the following topics available on this page and there should be a guide to resolve the issue. If you do not see the error in any of the following topics, please call service IMMEDIATELY!!
+                        </dd>
+                    </dl>
+         <div id="tonerContent" class="hidden">
+            <h2>Replacing the Toner on Your Machine</h2>
+            <table>
+                <tr>
+                    <td class="step-description">
+                        <p>Open the side door panel.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkSideDoor.jpeg" alt="Lexmark Side Door">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Push the button below the color you need replaced, and pull out the toner box.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarTonerButton.jpeg" alt="Lexmark Pulling Toner Out">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Put the new one in and push it into place. Then close the door.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkTonerPlace.jpeg" alt="Pushing the toner into place">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Run a few jobs and test the quality.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkFront.jpeg" alt="Front of Lexmark">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="wasteTonerContent" class="hidden">
+            <h2>Emptying the Waste Toner box on Your Machine</h2>
+            <table>
+                <tr>
+                    <td class="step-description">
+                        <p>Unfortunately, this cannot be done on lexmarks. Please submit a request to our helpdesk if the issue arrises .</p>
+                    </td>
+                    <td>
+                        <a href="contactus.html"><img src="Images/serviceDesk.jpeg" alt="Service Desk"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="RemoveLinesContent" class="hidden">
+            <h2>How to Remove Vertical Lines on Your Copies</h2>
+                <table>
+                    <tr>
+                        <td class="step-description">
+                            <p> Lift the Automatic Document Feeder.</p>
+                        </td>
+                        <td>
+                            <img src="Images/Lexmark/LexmarkADF.jpeg" alt="Lifted ADF Lid">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                            <p> Take your finger and rub it along the slit glass to the left of the main glass.</p>
+                        </td>
+                        <td>
+                            <img src="Images/Lexmark/LexmarkCleanADF.jpeg" alt="Cleaning Slit Glass of Lexmark">                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Using a glass cleaning solution, clean the slit glass.</p>
+                        </td>
+                        <td>
+                            <img src="Images/Lexmark/LexmarkCleanADF.jpeg" alt="Cleaning Slit Glass of Lexmark"> 
+                        </td>                    
+                        </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Run a few jobs and test the quality.</p>
+                        </td>
+                        <td>
+                            <img src="Images/Lexmark/LexmarkFront.jpeg" alt="Front of Lexmark"> 
+                        </td>
+                    </tr>
+                </table>
+        </div>
+
+        <div id="ChangePaperContent" class="hidden">
+            <h2>How to Replace the Paper on Your Machine</h2>
+            <table>
+                <tr>
+                    <td class="step-description">
+                    <p> Pull open your tray and open the guides all the way.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkFront.jpeg" alt="Front of Machine">                   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p>Remove the paper from the plastic.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkPaper.jpeg" alt="Lexmark Tray Opne"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Fan the paper good.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkFan.jpeg" alt="Fan the Paper Lexmark"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p>  Run a few jobs and test the quality!</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkFront.jpeg" alt="Front of Machine"> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="SetTypeContent" class="hidden">
+            <h2>How to Change the Paper Type on Your Machine</h2>
+            <table>
+                <tr>
+                    <td class="step-description">
+                        <p> On your machine, select the "Settings" application.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkMainPage.jpeg" alt="Lexmark Main Page"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                        <p> Then click "Paper".</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkSettings.jpeg" alt="Lexmark Settings Page"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Then click "Tray Configuration", then find and select the paper type that you want to use.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkPaperSettings.jpeg" alt="Front of Machine"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="step-description">
+                    <p> Run a job to make sure there are no errors.</p>
+                    </td>
+                    <td>
+                        <img src="Images/Lexmark/LexmarkFront.jpeg" alt="Front of Machine"> 
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    </div>
+    <script>
+        const tonerButton = document.getElementById('tonerButton');
+        const wasteTonerButton = document.getElementById('wasteTonerButton');
+        const RemoveLinesButton = document.getElementById('RemoveLinesButton');
+        const ChangePaperButton = document.getElementById('ChangePaperButton');
+        const SetTypeButton = document.getElementById('SetTypeButton');
+        
+        const tonerContent = document.getElementById('tonerContent');
+        const wasteTonerContent = document.getElementById('wasteTonerContent');
+        const RemoveLinesContent = document.getElementById('RemoveLinesContent');
+        const ChangePaperContent = document.getElementById('ChangePaperContent');
+        const SetTypeContent = document.getElementById('SetTypeContent');
+
+        tonerButton.addEventListener('click', () => {
+            wasteTonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            tonerContent.classList.remove('hidden');
+        });
+
+        wasteTonerButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.remove('hidden');
+        });
+        RemoveLinesButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.remove('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        SetTypeButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.remove('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        ChangePaperButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.remove('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+          </script>
+    </body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>How to work a Konica Minolta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }       
+            
+        </script>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="Logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="myLinks">
+              <a href="HP.html">How to HP</a>
+              <a href="KonicaMinolta.html" class="active">How to Konica Minolta</a>
+              <a href="Kyocera.html">How to Kyocera</a>
+              <a href="Lexmark.html">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html">Submit a Request</a>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+         </div>
+         <div class="container">
+         <div class="buttonMenu">
+            <button id="tonerButton">How to Change Toner</button>
+            <button id="wasteTonerButton">How to Empty/Change Waste Toner Box</button>
+            <button id="RemoveLinesButton">How to Remove Lines On Copies</button>
+            <button id="ChangePaperButton">How to Change Paper</button>
+            <button id="SetTypeButton">How to Set Paper Type</button>
+         </div>
+          <main>
+            <h2>Diagnosing the Problem</h2>
+                    <p>Your printer has now done the thing the everyone dreads the most and has stopped printing. Unfortunately, service is not answering and you need assistance immediately. You stumbled across this website and are hoping the issue is an easy fix. As long as you following the troubleshooting steps, that question will be answered fairly quickly.</p>
+                    <dl class="steps">
+                        <dt>1. Restart and Unplug the Machine</dt>
+                        <dd>
+                            The first step in every troubleshooting process should be to power down the machine completely and unplug the machine. Fortunately, Konica Minolta has a trouble reset option on all of their devices. On your device, if you look on the back of the touch panel there will be a cover that almost looks a battery cover. Take this cover off, and power the machine down with the main power switch on the right hand side of the machine. Once powered down, hold the bottom yellow button under the cover and power on the machine. Hold the button down until the machine says "Trouble Reset". Once the machine says "Trouble Reset", reboot the machine and any messages should clear. If they do not, please proceed to the next step.
+                        </dd>
+                        <dt>2. Diagnosing the Problem</dt>
+                        <dd>
+                            Now that you attempted to give the machine a full reboot, let's make sure the issue is something you can fix. Start by grabbing the IP address of the machine and typing the number into your web browser. If the webpage does not load, please contact your IT department as there may be an issue with the machine's network connectivity. Otherwise, the printer's web interface should show up and show you what errors may be present. Match the error with the following topics available on this page and there should be a guide to resolve the issue. If you do not see the error in any of the following topics, please call service IMMEDIATELY!!
+                        </dd>
+                    </dl>
+                    <div id="tonerContent" class="hidden">
+                        <h2>Replacing the Toner on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p>Open the top door panel.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Pull out the color that you need replaced.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaTonerOut.jpeg" alt="KM Pulling toner out">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Put the new one in and close the door.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaTonerDoor.jpeg" alt="KM Toner Installed">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Run a few jobs and test the quality.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <div id="wasteTonerContent" class="hidden">
+                        <h2>Emptying the Waste Toner box on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p>Open the front door panel.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Put gloves on and double bag your trash can.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/TrashBin.jpeg" alt="Trash Bin">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Pull out the waste toner box.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMWasteTonerDoor.jpeg" alt="KM Waste Toner Box Compartment">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Pour the toner out of the spout, under the sliding door, until the box is completely empty.</p>
+                                <p><small>You can tell the box is completely empty by ensuring the clear window on the bottom of the box is completely clear. You MUST have the box completely empty for the machine to recognize the box as empty.</small></p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMWasteTonerWindow.jpeg" alt="KM Waste Toner Window">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Reinstall the waste toner box and close the door.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMWasteTonerInstall.jpeg" alt="KM Waster Toner Installed">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Run a few jobs and test the quality.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <div id="RemoveLinesContent" class="hidden">
+                        <h2>How to Remove Vertical Lines on Your Copies</h2>
+                            <table>
+                                <tr>
+                                    <td class="step-description">
+                                        <p> Lift the Automatic Document Feeder.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/KonicaMinolta/KMADFOpen.jpeg" alt="KM ADF Opened">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                        <p> Take your finger and rub it along the slit glass to the left of the main glass.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/KonicaMinolta/KMSlitGlassClean.jpeg" alt="KM Cleaning Slit Glass">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                    <p> Using a glass cleaning solution, clean the slit glass.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/KonicaMinolta/KMSlitGlassClean.jpeg" alt="KM Cleaning Slit Glass">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                    <p> Close the ADF.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/KonicaMinolta/KMADFClose.jpeg" alt="KM Closing ADF">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                    <p> Run a few jobs and test the quality.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
+        
+                    <div id="ChangePaperContent" class="hidden">
+                        <h2>How to Replace the Paper on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                <p> Pull open your tray and open the guides all the way.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMGuides.jpeg" alt="KM Opening Tray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p>Remove the paper from the plastic, and close guides tight to paper</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMTray.jpeg" alt="KM Tray Guides Set">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Fan the paper good.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMFan.jpeg" alt="KM Fanning the Paper">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p>  Run a few jobs and test the quality!</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <div id="SetTypeContent" class="hidden">
+                        <h2>How to Change the Paper Type on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p> On your machine, select the "Copy" application.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Then click the paper tray you want to change.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMTraySelect.jpeg" alt="KM Selecting the Tray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Then click the settings button at the bottom.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMTraySelect.jpeg" alt="KM Selecting The Settings">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Find and select the paper type that you want to use.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KMPaperType.jpeg" alt="KM Selecting the Paper Type">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Run a job to make sure there are no errors.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/KonicaMinolta/KonicaMinoltaStock.jpeg" alt="KM Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </main>
+                </div>
+         
+
+          <script>
+        const tonerButton = document.getElementById('tonerButton');
+        const wasteTonerButton = document.getElementById('wasteTonerButton');
+        const RemoveLinesButton = document.getElementById('RemoveLinesButton');
+        const ChangePaperButton = document.getElementById('ChangePaperButton');
+        const SetTypeButton = document.getElementById('SetTypeButton');
+        
+        const tonerContent = document.getElementById('tonerContent');
+        const wasteTonerContent = document.getElementById('wasteTonerContent');
+        const RemoveLinesContent = document.getElementById('RemoveLinesContent');
+        const ChangePaperContent = document.getElementById('ChangePaperContent');
+        const SetTypeContent = document.getElementById('SetTypeContent');
+
+        tonerButton.addEventListener('click', () => {
+            wasteTonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            tonerContent.classList.remove('hidden');
+        });
+
+        wasteTonerButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.remove('hidden');
+        });
+        RemoveLinesButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.remove('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        SetTypeButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.remove('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        ChangePaperButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.remove('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+          </script>
+    </body>
+</html>
+

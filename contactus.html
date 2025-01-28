@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Request Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }               
+        </script>
+        <style>
+            .form-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 10px 5px 10px 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .form-group button {
+            background-color: #E00122;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #9d031a;
+        }
+
+        .required {
+            color: red;
+        }
+        @media screen and (max-width: 780px) {
+            .form-container{
+                width: 100%;
+                max-width: 380px;
+            }
+           
+        }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="Logo">
+                <a href="index.html" ><img src="Images/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="myLinks">
+              <a href="HP.html">How to HP</a>
+              <a href="KonicaMinolta.html">How to Konica Minolta</a>
+              <a href="Kyocera.html">How to Kyocera</a>
+              <a href="Lexmark.html">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html"  class="active">Submit a Request</a>
+            </div>
+       
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+            </div>
+            <div class="form-container">
+                <h1>Submit a Request</h1>
+                
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="printerBrand">Choose a Printer Brand <span class="required">*</span></label>
+                        <select id="printerBrand" required="required">
+                            <option label="Select Brand"></option>
+                            <option>HP</option>
+                            <option>Konica Minolta</option>
+                            <option>Kyocera</option>
+                            <option>Lexmark</option>
+                            <option>Ricoh</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required="required">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required="required">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" required="required">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">E-mail <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Problem Description</label>
+                        <textarea id="description" name="description" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+              </form>
+            
+         </div>
+    </body>
+</html>

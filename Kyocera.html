@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>How to work a Kyocera</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }       
+            
+        </script>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="Logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="myLinks">
+              <a href="HP.html">How to HP</a>
+              <a href="KonicaMinolta.html">How to Konica Minolta</a>
+              <a href="Kyocera.html" class="active">How to Kyocera</a>
+              <a href="Lexmark.html">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html">Submit a Request</a>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+         </div>
+         <div class="container">
+         <div class="buttonMenu">
+            <button id="tonerButton">How to Change Toner</button>
+            <button id="wasteTonerButton">How to Empty/Change Waste Toner Box</button>
+            <button id="RemoveLinesButton">How to Remove Lines On Copies</button>
+            <button id="ChangePaperButton">How to Change Paper</button>
+            <button id="SetTypeButton">How to Set Paper Type</button>
+         </div>
+          <main>
+            <h2>Diagnosing the Problem</h2>
+                    <p>Your printer has now done the thing the everyone dreads the most and has stopped printing. Unfortunately, service is not answering and you need assistance immediately. You stumbled across this website and are hoping the issue is an easy fix. As long as you following the troubleshooting steps, that question will be answered fairly quickly.</p>
+                    <dl class="steps">
+                        <dt>1. Restart and Unplug the Machine</dt>
+                        <dd>
+                            The first step in every troubleshooting process should be to power down the machine completely and unplug the machine. Fortunately, Kyocera machines can be powered down by simply pushing the power button in on the front of the machine. Unplug the machine and wait 30 seconds before plugging it back in and powering it back on. If issues persist, please check the troubleshooting steps below.
+                        </dd>
+                        <dt>2. Diagnosing the Problem</dt>
+                        <dd>
+                            Now that you attempted to give the machine a full reboot, let's make sure the issue is something you can fix. Start by grabbing the IP address of the machine and typing the number into your web browser. If the webpage does not load, please contact your IT department as there may be an issue with the machine's network connectivity. Otherwise, the printer's web interface should show up and show you what errors may be present. Match the error with the following topics available on this page and there should be a guide to resolve the issue. If you do not see the error in any of the following topics, please call service IMMEDIATELY!!
+                        </dd>
+                        </dl>
+                    <div id="tonerContent" class="hidden">
+                        <h2>Replacing the Toner on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p>Open the front door panel.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Pull out the color that you need replaced.</p>
+                                <p>NOTE: If the toner is not completely empty, the machine will not let you replace it! Also, do NOT throw away empty black toners.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoTonerDoor.jpeg" alt="Kyocera Toner Door Open">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Put the new one in and close the door.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoTonerClosed.jpeg" alt="Kyocera Door Closed">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Run a few jobs and test the quality.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <div id="wasteTonerContent" class="hidden">
+                        <h2>Emptying the Waste Toner box on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p>Open the door panel to the left of tray one.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Pull out the waste toner bottle. </p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoWTOut.jpeg" alt="Kyocera Waste Toner Pulled Out">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Replace the waste toner bottle with an empty black toner bottle.</p>
+                                    <p><small> if you do not have an empty black toner bottle, please call the helpdesk.</small></p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoWTDoor.jpeg" alt="KYocera Waste Toner Installed">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Close the door and run a few jobs and test the quality!</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+        
+                    <div id="RemoveLinesContent" class="hidden">
+                        <h2>How to Remove Vertical Lines on Your Copies</h2>
+                            <table>
+                                <tr>
+                                    <td class="step-description">
+                                        <p> Lift the Automatic Document Feeder.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/Kyocera/KyoADFLid.jpeg" alt="Kyocera ADF Lid">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                        <p> Take your finger and rub it along the slit glass to the left of the main glass.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/Kyocera/KyoCleanSlitGlass.jpeg" alt="Cleaning Slit Glass">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                    <p> Using a glass cleaning solution, clean the slit glass.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/Kyocera/KyoCleanSlitGlass.jpeg" alt="Cleaning slit glass">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="step-description">
+                                    <p> Close the ADF. Run a few jobs to test the quality.</p>
+                                    </td>
+                                    <td>
+                                        <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
+        
+                    <div id="ChangePaperContent" class="hidden">
+                        <h2>How to Replace the Paper on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                <p> Pull open your tray and open the guides all the way.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoTray.jpeg" alt="Kyocera Tray Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p>Remove the paper from the plastic.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoTray.jpeg" alt="Kyocea Tray Image">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Fan the paper good.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoFan.jpeg" alt="Fanning Paper">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p>  Run a few jobs and test the quality!</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <div id="SetTypeContent" class="hidden">
+                        <h2>How to Change the Paper Type on Your Machine</h2>
+                        <table>
+                            <tr>
+                                <td class="step-description">
+                                    <p>On your machine, click paper settings in the top right.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoMainPage.jpg" alt="Kyocera Paper Settings">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                    <p> Then click on one of the cassettes you want to change settings under.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoTraySelect.jpeg" alt="Kyocera Selecting the tray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Then click paper type.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoPaperType.jpeg" alt="Kyocera Selecting Paper Setting">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Select the paper type you want</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoPaperSettings.jpeg" alt="Kyocera Paper Settings Options">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="step-description">
+                                <p> Run a job to make sure there are no errors.</p>
+                                </td>
+                                <td>
+                                    <img src="Images/Kyocera/KyoStock.jpeg" alt="Kyocera Stock Image">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </main>
+                </div>
+          
+
+          <script>
+        const tonerButton = document.getElementById('tonerButton');
+        const wasteTonerButton = document.getElementById('wasteTonerButton');
+        const RemoveLinesButton = document.getElementById('RemoveLinesButton');
+        const ChangePaperButton = document.getElementById('ChangePaperButton');
+        const SetTypeButton = document.getElementById('SetTypeButton');
+        
+        const tonerContent = document.getElementById('tonerContent');
+        const wasteTonerContent = document.getElementById('wasteTonerContent');
+        const RemoveLinesContent = document.getElementById('RemoveLinesContent');
+        const ChangePaperContent = document.getElementById('ChangePaperContent');
+        const SetTypeContent = document.getElementById('SetTypeContent');
+
+        tonerButton.addEventListener('click', () => {
+            wasteTonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            tonerContent.classList.remove('hidden');
+        });
+
+        wasteTonerButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.remove('hidden');
+        });
+        RemoveLinesButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.remove('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        SetTypeButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.remove('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        ChangePaperButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.remove('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+          </script>
+    </body>
+</html>
+
+

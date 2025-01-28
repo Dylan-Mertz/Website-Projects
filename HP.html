@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>How to work an HP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="finaldesign.css" rel="stylesheet">
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } 
+                    else {
+                        x.style.display = "block";
+                    }
+            }       
+            
+        </script>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="Logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="Logo"></a>
+              </div>
+            <div id="myLinks">
+              <a href="HP.html" class="active">How to HP</a>
+              <a href="KonicaMinolta.html">How to Konica Minolta</a>
+              <a href="Kyocera.html">How to Kyocera</a>
+              <a href="Lexmark.html">How to Lexmark</a>
+              <a href="Ricoh.html">How to Ricoh</a>
+              <a href="contactus.html">Submit a Request</a>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/hamburger.png" alt="hamburgermenu" width="60" height="60">
+              </a>
+         </div>
+         <div class="container">
+         <div class="buttonMenu">
+            <button id="tonerButton">How to Change Toner</button>
+            <button id="wasteTonerButton">How to Empty/Change Waste Toner Box</button>
+            <button id="RemoveLinesButton">How to Remove Lines On Copies</button>
+            <button id="ChangePaperButton">How to Change Paper</button>
+            <button id="SetTypeButton">How to Set Paper Type</button>
+         </div>
+          <main>
+            <h2>Diagnosing the Problem</h2>
+                    <p>Your printer has now done the thing the everyone dreads the most and has stopped printing. Unfortunately, service is not answering and you need assistance immediately. You stumbled across this website and are hoping the issue is an easy fix. As long as you following the troubleshooting steps, that question will be answered fairly quickly.</p>
+                    <dl class="steps">
+                        <dt>1. Restart and Unplug the Machine</dt>
+                            <dd>
+                                The first step in every troubleshooting process should be to power down the machine completely and unplug it. Fortunately, HP machines are fully powered down by just holding the power button on the front of the device. Leave the machine unplugged for at least thirty seconds before powering it back on. If the issue is not resolved, continue to the next step.
+                            </dd>
+                        <dt>2. Diagnosing the Problem</dt>
+                            <dd>
+                               Now that you attempted to give the machine a full reboot, let's make sure the issue is something you can fix. Start by grabbing the IP address of the machine and typing the number into your web browser. If the webpage does not load, please contact your IT department as there may be an issue with the machine's network connectivity. Otherwise, the printer's web interface should show up and show you what errors may be present. Match the error with the following topics available on this page and there should be a guide to resolve the issue. If you do not see the error in any of the following topics, please call service IMMEDIATELY!!
+                            </dd>
+                        </dl>
+            <div id="tonerContent" class="hidden">
+                <h2>Replacing the Toner on Your Machine</h2>
+                <table>
+                    <tr>
+                        <td class="step-description">
+                            <p>Open the front door panel.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="Stock HP Image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Pull out the color that you need replaced.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPtoner.jpeg" alt="HP Toner Pulled Out">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Put the new one in and close the door.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPFrontPanel.jpeg" alt="HP Front Door Open">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Run a few jobs and test the quality.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="Stock HP Image">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="wasteTonerContent" class="hidden">
+                <h2>Emptying the Waste Toner box on Your Machine</h2>
+                <table>
+                    <tr>
+                        <td class="step-description">
+                            <p>Open the front door panel.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPFrontPanel.jpeg" alt="HP Front Door Panel">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                            <p> Put gloves on and double bag your trash can.</p>
+                        </td>
+                        <td>
+                            <img src="Images/TrashBin.jpeg" alt="Trash Bin">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                            <p> Pull out the waste toner box.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPWasteTonerFront.jpeg" alt="Front of HP Waste Toner">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p>Plug all holes with a tissue, and then pour the toner out of the spout until the box is completely empty.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPWasteTonerBack.jpeg" alt="Back of HP Waste TOner">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Reinstall the toner box and close the door.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPFrontPanel.jpeg" alt="Front of Waste Toner">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Run a few jobs and test the quality.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="Stock Image of HP">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="RemoveLinesContent" class="hidden">
+                <h2>How to Remove Vertical Lines on Your Copies</h2>
+                    <table>
+                        <tr>
+                            <td class="step-description">
+                                <p> Lift the Automatic Document Feeder.</p>
+                            </td>
+                            <td>
+                                <img src="Images/HP/HPADF.jpeg" alt="HP ADF LID">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="step-description">
+                                <p> Take your finger and rub it along the slit glass to the left of the main glass.</p>
+                            </td>
+                            <td>
+                                <img src="Images/HP/HPADFClean.jpeg" alt="Cleaning HP Slit Glass">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="step-description">
+                            <p> Using a glass cleaning solution, clean the slit glass.</p>
+                            </td>
+                            <td>
+                                <img src="Images/HP/HPADFClean.jpeg" alt="Cleaning HP Slit Glass">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="step-description">
+                            <p> Close the ADF.</p>
+                            </td>
+                            <td>
+                                <img src="Images/HP/HPStock.jpeg" alt="Stock image of HP">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="step-description">
+                            <p> Run a few jobs and test the quality.</p>
+                            </td>
+                            <td>
+                                <img src="Images/HP/HPStock.jpeg" alt="Stock Image of HP">
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+
+            <div id="ChangePaperContent" class="hidden">
+                <h2>How to Replace the Paper on Your Machine</h2>
+                <table>
+                    <tr>
+                        <td class="step-description">
+                        <p> Pull open your tray and open the guides all the way.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="HP Stock Image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p>Remove the paper from the plastic.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPTray.jpeg" alt="HP tray with paper">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p> Fan the paper good.</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPFan.jpeg" alt="Fanning Paper">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="step-description">
+                        <p>  Close the door. Run a few jobs and test the quality!</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="HP Stock Image">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="SetTypeContent" class="hidden">
+                <h2>How to Change the Paper Type on Your Machine</h2>
+                <table>
+                    <tr>
+                        <td class="step-description">
+                            <p> The machine does not actually need you to change the type of paper, as long as you have the paper set correctly in the tray. Set the paper type in the driver and test a print, it should work!</p>
+                        </td>
+                        <td>
+                            <img src="Images/HP/HPStock.jpeg" alt="HP Stock Image">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        </div>
+   
+
+          <script>
+        const tonerButton = document.getElementById('tonerButton');
+        const wasteTonerButton = document.getElementById('wasteTonerButton');
+        const RemoveLinesButton = document.getElementById('RemoveLinesButton');
+        const ChangePaperButton = document.getElementById('ChangePaperButton');
+        const SetTypeButton = document.getElementById('SetTypeButton');
+        
+        const tonerContent = document.getElementById('tonerContent');
+        const wasteTonerContent = document.getElementById('wasteTonerContent');
+        const RemoveLinesContent = document.getElementById('RemoveLinesContent');
+        const ChangePaperContent = document.getElementById('ChangePaperContent');
+        const SetTypeContent = document.getElementById('SetTypeContent');
+
+        tonerButton.addEventListener('click', () => {
+            wasteTonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            tonerContent.classList.remove('hidden');
+        });
+
+        wasteTonerButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.remove('hidden');
+        });
+        RemoveLinesButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.remove('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        SetTypeButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.add('hidden');
+            SetTypeContent.classList.remove('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+        ChangePaperButton.addEventListener('click', () => {
+            tonerContent.classList.add('hidden');
+            RemoveLinesContent.classList.add('hidden');
+            ChangePaperContent.classList.remove('hidden');
+            SetTypeContent.classList.add('hidden');
+            wasteTonerContent.classList.add('hidden');
+        });
+          </script>
+    </body>
+</html>

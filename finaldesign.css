@@ -1,0 +1,118 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.container {
+  display: grid;
+  grid-template-areas: 
+  "main main main main menu"
+  "main main main main menu"
+  "main main main main menu"
+  "main main main main menu";
+  padding: 20px;
+  gap: 10px
+}
+main {
+  grid-area: main;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+.buttonMenu {
+  grid-area: menu;
+}
+.buttonMenu > button {
+  display: block;
+  width: 100%;
+  background-color: #333;
+  color: #ffffff;
+  height: 50px;
+}
+.buttonMenu > button:hover {
+  color: #ddd;
+  background-color: #E00122;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0;
+  }
+  
+  .topnav a:hover {
+    color: #ddd;
+    background-color: #E00122;
+  }
+  
+  .active {
+    background-color: #E00122;
+    color: #000000;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    width: 50%;
+}
+.Logo img{
+  height: 60px;
+  width: 60px;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+td img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.step-description {
+  font-size: 1.1em;
+}
+  @media screen and (max-width: 780px) {
+    .topnav a {
+      float: none;
+    
+    }
+    
+    .container {
+      grid-template-areas: 
+      "menu"
+      "menu"
+      "main"
+      "main";
+    }
+    main {
+      box-shadow: none;
+    }
+  
+  }
